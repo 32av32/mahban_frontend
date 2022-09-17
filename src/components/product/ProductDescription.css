@@ -1,0 +1,38 @@
+.Product {
+    grid-area: content;
+    padding: 50px 50px 50px 200px;
+}
+
+.Product__container {
+    display: grid;
+    grid-template-columns: 1fr 2fr 5fr;
+}
+
+.Product__images {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.Product__images button {
+    border: 1px solid #e5e5e5;
+    cursor: pointer;
+
+    background-color: white;
+    border-radius: 0.25rem;
+    padding: 15px;
+}
+
+.Product__images button:focus {
+    border: 0.01rem solid #fcbe00;
+    transition: none;
+}
+
+.Product__images img {
+    width: 85px;
+}
+
+.Product__main-image {
+    width: 420px;
+    padding: 50px;
+}

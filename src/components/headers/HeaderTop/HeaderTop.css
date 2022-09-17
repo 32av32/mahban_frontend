@@ -1,0 +1,16 @@
+.HeaderTop {
+    grid-area: header-top;
+    background-color: #263C97;
+    border-bottom: solid rgba(255, 255, 255, .15);;
+    border-width: thin;
+
+    display: flex;
+    gap: 20px;
+    justify-content: right;
+    align-items: center;
+    padding-right: 30px;
+}
+
+.HeaderTop__link {
+    font-size: 13px;
+}

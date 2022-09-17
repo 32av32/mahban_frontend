@@ -1,0 +1,11 @@
+.HeaderMiddle {
+    grid-area: header-middle;
+    background-color: #263C97;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+}
+
+

@@ -1,0 +1,30 @@
+.Nav__category__dropbox {
+    position: relative;
+    display: none;
+    flex-direction: column;
+    z-index: 1;
+
+    box-sizing: border-box;
+    box-shadow: 0 15px 30px 0 rgba(0, 3, 143, 0.1);
+    border-radius: 0 0 5px 5px;
+    background-color: white;
+}
+
+.Nav__category__dropbox a {
+    flex-basis: 40px;
+    color: #1F2024;
+    display: block;
+    font-size: 13px;
+    border-bottom: 1px solid lightgray;
+    padding: 15px 20px;
+}
+
+.Nav__category__dropbox a:nth-last-child(-n+1) {
+    border: none;
+}
+
+.Nav__category:hover .Nav__category__dropbox {
+    display: flex;
+    animation-duration: 1s;
+    animation-name: opacity-in;
+}

@@ -1,0 +1,12 @@
+.Products {
+    grid-area: content;
+    padding: 20px 20px 20px 400px;
+}
+
+.Products__goods_container {
+    max-width: 1350px;
+    min-width: 1250px;
+    display: grid;
+    grid-template-columns: repeat(5, minmax(250px, 270px));
+    grid-template-rows: repeat(5, minmax(380px, 400px));
+}

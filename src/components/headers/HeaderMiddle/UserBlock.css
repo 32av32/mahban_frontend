@@ -1,0 +1,16 @@
+.HeaderMiddle__user-block {
+    display: flex;
+    gap: 30px;
+    flex-basis: 500px;
+}
+
+.HeaderMiddle__user-block-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+
+    color: white;
+    font-size: 12px;
+    cursor: pointer;
+}
